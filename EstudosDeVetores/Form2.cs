@@ -28,5 +28,12 @@ namespace EstudosDeVetores
         {
             Application.Exit();
         }
+
+        private void exercício2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEx2 ex3 = new FrmEx2();
+            Hide();
+            ex3.Show();
+        }
     }
 }

@@ -30,10 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.exercíciosVetoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercício1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercício2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercício3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,13 +58,6 @@
             this.exercíciosVetoresToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
             this.exercíciosVetoresToolStripMenuItem.Text = "ExercíciosVetores";
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // exercício1ToolStripMenuItem
             // 
             this.exercício1ToolStripMenuItem.Name = "exercício1ToolStripMenuItem";
@@ -77,12 +70,20 @@
             this.exercício2ToolStripMenuItem.Name = "exercício2ToolStripMenuItem";
             this.exercício2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exercício2ToolStripMenuItem.Text = "Exercício2";
+            this.exercício2ToolStripMenuItem.Click += new System.EventHandler(this.exercício2ToolStripMenuItem_Click);
             // 
             // exercício3ToolStripMenuItem
             // 
             this.exercício3ToolStripMenuItem.Name = "exercício3ToolStripMenuItem";
             this.exercício3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exercício3ToolStripMenuItem.Text = "Exercício3";
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 

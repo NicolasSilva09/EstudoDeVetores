@@ -40,7 +40,7 @@ namespace EstudosDeVetores
             for(int i = 0; i < 15; i++)
             {
                 double result = ValoresInseridos[i] * ValoresInseridos[i];
-                lstresult.Items.Add(result);    
+                lstresult.Items.Add(result);
             }
         }
 
@@ -48,6 +48,8 @@ namespace EstudosDeVetores
         {
             lstresult.Items.Clear();
             lstValores.Items.Clear();
+            ValoresInseridos = new double[15];
+            valores = 0;
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
