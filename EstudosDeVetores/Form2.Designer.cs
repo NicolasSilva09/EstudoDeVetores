@@ -55,8 +55,8 @@
             this.exercício2ToolStripMenuItem,
             this.exercício3ToolStripMenuItem});
             this.exercíciosVetoresToolStripMenuItem.Name = "exercíciosVetoresToolStripMenuItem";
-            this.exercíciosVetoresToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
-            this.exercíciosVetoresToolStripMenuItem.Text = "ExercíciosVetores";
+            this.exercíciosVetoresToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
+            this.exercíciosVetoresToolStripMenuItem.Text = "Exercícios Vetores";
             // 
             // exercício1ToolStripMenuItem
             // 
@@ -77,6 +77,7 @@
             this.exercício3ToolStripMenuItem.Name = "exercício3ToolStripMenuItem";
             this.exercício3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exercício3ToolStripMenuItem.Text = "Exercício3";
+            this.exercício3ToolStripMenuItem.Click += new System.EventHandler(this.exercício3ToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 

@@ -31,7 +31,14 @@ namespace EstudosDeVetores
 
         private void exercício2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmEx2 ex3 = new FrmEx2();
+            FrmEx2 ex2 = new FrmEx2();
+            Hide();
+            ex2.Show();
+        }
+
+        private void exercício3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEx3 ex3 = new FrmEx3();  
             Hide();
             ex3.Show();
         }
