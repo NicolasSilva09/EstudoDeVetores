@@ -39,27 +39,6 @@ namespace EstudosDeVetores
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int valor = int.Parse(txtpesquisa.Text);
-            bool achou = false;
-            lstpesquisa.Items.Add ($"");
-
-            for (int i = 0; i<30;i++) 
-            {
-                if (B[i] == valor)
-                {
-                    lstpesquisa.Items.Add($"encontrado na posição {i} \r\n ");
-                    achou = true;
-                }
-            }
-            
-            if (!achou)
-            {
-                lstpesquisa.Items.Add ( $"Valor não encontrado");
-            }
-        }
-
         private void sair_Click(object sender, EventArgs e)
         {
             FrmMenu menu = new FrmMenu();
@@ -72,6 +51,26 @@ namespace EstudosDeVetores
             txtpesquisa.Clear();
             lstpesquisa.Items.Clear();
             txtpesquisa.Focus();
+        }
+
+        private void btnpesquisar_Click(object sender, EventArgs e)
+        {
+            int valor = int.Parse(txtpesquisa.Text);
+            bool achou = false;
+
+            for (int i = 0; i < 30; i++)
+            {
+                if (B[i] == valor)
+                {
+                    lstpesquisa.Items.Add($"encontrado na posição {i} \r\n ");
+                    achou = true;
+                }
+            }
+
+            if (!achou)
+            {
+                lstpesquisa.Items.Add($"Valor não encontrado");
+            }
         }
     }
 }

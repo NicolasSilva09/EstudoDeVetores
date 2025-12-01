@@ -35,7 +35,7 @@
             this.lstvalores = new System.Windows.Forms.ListBox();
             this.lstresult = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnpesquisar = new System.Windows.Forms.Button();
             this.txtpesquisa = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -110,16 +110,16 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Valores ao cubo";
             // 
-            // button1
+            // btnpesquisar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(454, 317);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 29);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "pesquisar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnpesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpesquisar.Location = new System.Drawing.Point(454, 317);
+            this.btnpesquisar.Name = "btnpesquisar";
+            this.btnpesquisar.Size = new System.Drawing.Size(93, 29);
+            this.btnpesquisar.TabIndex = 9;
+            this.btnpesquisar.Text = "pesquisar";
+            this.btnpesquisar.UseVisualStyleBackColor = true;
+            this.btnpesquisar.Click += new System.EventHandler(this.btnpesquisar_Click);
             // 
             // txtpesquisa
             // 
@@ -198,7 +198,7 @@
             this.Controls.Add(this.lstpesquisa);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnpesquisar);
             this.Controls.Add(this.txtpesquisa);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lstresult);
@@ -224,7 +224,7 @@
         private System.Windows.Forms.ListBox lstvalores;
         private System.Windows.Forms.ListBox lstresult;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnpesquisar;
         private System.Windows.Forms.TextBox txtpesquisa;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
